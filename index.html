@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Teacher's Day ❤️</title>
+
+    <style>
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+
+            min-height: 100vh;
+
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            padding: 25px;
+
+            font-family: Georgia, serif;
+
+            background:
+                linear-gradient(
+                    135deg,
+                    #f8d7df,
+                    #fff5f7,
+                    #e8dcf5
+                );
+
+            color: #49343b;
+        }
+
+
+        .card {
+
+            width: 100%;
+            max-width: 600px;
+
+            padding: 40px 30px;
+
+            background: rgba(255,255,255,0.9);
+
+            border-radius: 28px;
+
+            text-align: center;
+
+            box-shadow:
+                0 20px 50px
+                rgba(0,0,0,0.15);
+
+        }
+
+
+        .emoji {
+
+            font-size: 55px;
+
+            margin-bottom: 10px;
+
+        }
+
+
+        .small-title {
+
+            font-size: 13px;
+
+            letter-spacing: 3px;
+
+            text-transform: uppercase;
+
+            opacity: 0.6;
+
+        }
+
+
+        h1 {
+
+            font-size: 42px;
+
+            font-weight: normal;
+
+            margin: 15px 0;
+
+        }
+
+
+        .intro {
+
+            font-size: 18px;
+
+            line-height: 1.8;
+
+        }
+
+
+        button {
+
+            margin-top: 15px;
+
+            padding: 14px 25px;
+
+            border: none;
+
+            border-radius: 30px;
+
+            background: #a65370;
+
+            color: white;
+
+            font-family: Georgia, serif;
+
+            font-size: 16px;
+
+            cursor: pointer;
+
+        }
+
+
+        button:hover {
+
+            opacity: 0.9;
+
+        }
+
+
+        #message {
+
+            display: none;
+
+            margin-top: 30px;
+
+            padding-top: 25px;
+
+            border-top:
+                1px solid #ead5dc;
+
+            text-align: left;
+
+            animation:
+                appear 0.8s ease;
+
+        }
+
+
+        @keyframes appear {
+
+            from {
+
+                opacity: 0;
+
+                transform:
+                    translateY(15px);
+
+            }
+
+            to {
+
+                opacity: 1;
+
+                transform:
+                    translateY(0);
+
+            }
+
+        }
+
+
+        #message p {
+
+            font-size: 18px;
+
+            line-height: 1.9;
+
+        }
+
+
+        .signature {
+
+            text-align: right;
+
+            font-style: italic;
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+
+<div class="card">
+
+
+    <div class="emoji">
+        🍎💌
+    </div>
+
+
+    <div class="small-title">
+        A little message for you
+    </div>
+
+
+    <h1>
+        Happy Teacher's Day ❤️
+    </h1>
+
+
+    <p class="intro">
+
+        Dear Teacher,
+
+        <br><br>
+
+        I prepared something special
+        for you.
+
+        <br>
+
+        Take a moment and open it
+        when you're ready.
+
+    </p>
+
+
+    <button onclick="openMessage()">
+
+        Open my message ❤️
+
+    </button>
+
+
+    <div id="message">
+
+
+        <p>
+            Dear Teacher,
+        </p>
+
+
+        <p>
+
+            Thank you for your patience,
+            your guidance, and all the
+            little things you do for us.
+
+        </p>
+
+
+        <p>
+
+            You don't just teach us
+            lessons from books.
+
+            You teach us to believe
+            in ourselves and to keep
+            moving forward.
+
+        </p>
+
+
+        <p>
+
+            Your efforts may not always
+            be noticed, but they are
+            truly appreciated.
+
+        </p>
+
+
+        <p>
+
+            Happy Teacher's Day! 🍎❤️
+
+        </p>
+
+
+        <p class="signature">
+
+            — From your student
+
+        </p>
+
+
+    </div>
+
+
+</div>
+
+
+<script>
+
+
+function openMessage() {
+
+    document.getElementById("message")
+        .style.display = "block";
+
+}
+
+
+</script>
+
+
+</body>
+
+</html>
